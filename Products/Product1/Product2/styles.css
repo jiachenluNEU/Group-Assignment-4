@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+footer {
+    margin-top: 40px;
+}
