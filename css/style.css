@@ -199,3 +199,9 @@ h2 {
 .control--checkbox input:disabled:checked ~ .control__indicator {
   background-color: #7e0cf5;
   opacity: .2; }
+
+  .error-message {
+    color: rgb(230, 146, 146);
+    display: float;
+    margin-top: 5px;
+}
