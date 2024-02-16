@@ -77,3 +77,39 @@ img {
     background-position: center;
     background-size: cover;
 }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+    color: var(--c-dark);
+}
+
+/* about */
+
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+.section-title p {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Iconbox section */
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(var(--c-brand-rgb), 0.1);
+    font-size: 34px;
+    flex: none;
+}
